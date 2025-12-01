@@ -7,7 +7,7 @@ export default function WeatherDetail({ item }) {
   if (!item || !Array.isArray(item) || item.length === 0) {
     return (
       <div className={styles.weatherDetail}>
-        <p>날씨 정보를 불러올 수 없습니다.</p>
+        <p>날씨 정보를 불러올 수 없습니다..</p>
       </div>
     );
   }
